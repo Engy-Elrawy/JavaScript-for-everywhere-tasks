@@ -8,4 +8,6 @@ Node Package Manager it downloads code other people wrote so you don't rewrite i
 ## Git 
  is the tool on your computer it can Track changes in your files and code history over time.
 ## GitHub 
-is the website that hosts a copy online it can store your Git repositories online so you can share, backup, and collaborate with others.
+is the website that hosts a copy online it can store your Git repositories online so you can share, backup, and collaborate with others. 
+# why node modules folder never goes on GitHub? 
+cause that folder is so big size.
