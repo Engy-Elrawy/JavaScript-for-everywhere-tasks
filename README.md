@@ -14,4 +14,4 @@ This is my first task in **JavaScript everywhere course**
 | COURSE CONTENT | I LEARN |
 | :---: | :--- |
 | Day 1 | **1.** How to install Node.js + npm <br> **2.** New extensions in VSCode <br> **3.** Basic GitHub commands & create my first repo <br> **4.** Running JS in Node environment and browser |
-| Day 2 | **1.** How to install Node.js + npm <br> **2.** New extensions in VSCode <br> **3.** Basic GitHub commands & create my first repo <br> **4.** Running JS in Node environment and browser |
+| Day 2 | **1.** const ,let & var  <br> **2.** types of loop for ...for of... while ex.. <br> **3.** data type in JavaScript <br> **4.** Conditionals & Operators <br> **5.** break & continue and when i use? |
