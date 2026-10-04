@@ -39,7 +39,9 @@ it can use when i don't make nested if or else in wrong situations.
 
 
 ## The difference between passing fn and passing fn() ?
+passing fn return ==>[function:passing]. 
 
+passing fn() its calling function so return what function do it.
 
 ## My Task 5.3 answer — the line counts and the one-place change? 
 
