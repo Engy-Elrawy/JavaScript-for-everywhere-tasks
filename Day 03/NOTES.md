@@ -24,10 +24,15 @@ it say that when enter if situation you will return and exit from function.
 it can use when i don't make nested if or else in wrong situations. 
 
 ## Global vs function vs block scope, one sentence each? 
+Global everything in code watch it and can access it . 
 
+function create inside function and use only in function . 
+
+block scope every variable inside {}. 
 
 ## What the scope chain is, and which direction it searches ? 
-
+function inside function can use own variable, 
+inner function can access variable in outer function but outer can not do that . 
 
 ## What hoisting actually moves — for function, var, let, const ? 
 
