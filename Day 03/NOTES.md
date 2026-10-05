@@ -58,5 +58,76 @@ passing fn return ==>[function:passing].
 passing fn() its calling function so return what function do it.
 
 ## My Task 5.3 answer — the line counts and the one-place change?
- the line counts in Day 2 ===> sum+=student.score;
+ the line counts in Day 2 ===> let sum=0; 
+ 
+ for (const student of students) { 
+ 
+  if (typeof student.score !== "number") {  
+  
+    console.log(`Invalid`); 
+    
+    skipedStd++; 
+    
+    continue; 
+    
+  } 
+  else if (student.score >= 90) { 
+  
+    console.log( 
+    
+      `student name : ${student.name.padEnd(10)} | score : ${student.score} | attendance : ${student.attendance} | bande : A | status : PASS `, 
+      
+    );
+    aBand++; 
+    
+  } 
+  else if (student.score >= 80) { 
+  
+    console.log(
+      `student name : ${student.name.padEnd(10)} | score : ${student.score} | attendance : ${student.attendance} | bande : B | status : PASS `, 
+      
+    );
+    bBand++; 
+    
+  } else if (student.score >= 70 && student.attendance >= "80%") { 
+  
+    console.log(
+      `student name : ${student.name.padEnd(10)} | score : ${student.score} | attendance : ${student.attendance} | bande : c | status : PASS `,
+    ); 
+    
+    cBand++; 
+    
+  } else if (student.score < 60 || student.attendance < "70%") { 
+  
+    console.log(
+      `student name : ${student.name.padEnd(10)} | score : ${student.score} | attendance : ${student.attendance} | bande : D | status : AT RISK `,
+    ); 
+    
+    dBand++ 
+    
+  } else { 
+  
+    console.log(
+      `student name : ${student.name.padEnd(10)} | score : ${student.score} | attendance : ${student.attendance} | bande : F | status : FAILED `,
+    ); 
+    
+    fBand++; 
+    
+  }
+  sum+=student.score; 
+  
+}
+ in Day 3 ===>function average(numbers){ 
+ 
+  if(numbers.length === 0)return 0; 
+  
+  let total = 0; 
+  
+  for (const number of numbers) {
+    total+=number;
+  } 
+  
+  return total/numbers.length;
+} 
 
+in day 3 code less and best total get it from loop of scores.
